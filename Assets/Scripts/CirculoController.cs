@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Trigger : MonoBehaviour {
+public class CirculoController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		
 	}
 	
 	// Update is called once per frame
@@ -14,6 +14,6 @@ public class Trigger : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		Debug.Log("Colidiu!!!: " + other.gameObject.name);
+		Debug.Log("Colidiu: " + other.gameObject.name);
 	}
 }
